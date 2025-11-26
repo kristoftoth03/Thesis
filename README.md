@@ -16,13 +16,13 @@ Methodology
 
 The simulation is based on Boukari’s equations for thermodynamic fluid flow. The project was divided into two distinct modeling phases:
 
-1. Linear Simulation (Constant Properties)
+1. Linear Simulation (Constant thermophysical properties)
 
     Approach: Linearized the governing equations using constant thermophysical properties.
 
-    Objective: To isolate and investigate the dependence of the Piston Effect on initial conditions without the noise of property variations.
+    Objective: To isolate and investigate the dependence of the Piston Effect on initial conditions.
 
-2. Nonlinear Simulation (State-Dependent Properties)
+2. Nonlinear Simulation (State-dependent thermophysical properties)
 
     Approach: Implemented full nonlinear equations where material properties change dynamically with state variables.
 
